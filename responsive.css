@@ -1,0 +1,18 @@
+/* Estilos para telas pequenas */
+@media only screen and (max-width: 767px) {
+    .container,
+    .MyProfile,
+    .carousel-container {
+        flex-direction: column; /* Altera a direção do flexbox para coluna */
+    }
+
+    .MyProfile,
+    .MySocial,
+    .mainVisual {
+        width: 80%; /* Define a largura para 100% */
+        margin-bottom: 20px;
+    }
+    .Myphoto{
+        width: 80px;
+    }
+}
