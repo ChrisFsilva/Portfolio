@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Estilo do menu lateral */
+.sidebar {
+    width: 300px;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    height: 300px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Estilo da área de conteúdo */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+/*Menu suspenso*/
+.dropdown-submenu{
+    float: left;
+    text-align: left;
+    display: none;
+}
+
+li.dropdown{
+    display: flex;
+}
+
+.dropdown:hover .dropdown-submenu{ 
+    display: block;
+}
+
+.dropbtn{
+    display: block;
+}

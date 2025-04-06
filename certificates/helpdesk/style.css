@@ -1,0 +1,41 @@
+.firstsquad{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.secundsquad{
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 20vh;
+    margin: 2%;
+    font-size: 20px;
+    display: flex;
+}
+.textsquad{
+    background: linear-gradient(to right, #1a1a1a, rgba(26, 26, 26, 0));
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border-radius:150px 0px 0px 150px;
+    padding-left: 100px;
+    width: 75%;
+    height: 200px;
+    font-size: 20px;
+}
+
+img{
+    align-items: center;
+    text-align: center;
+    /*border-radius: 100px 800px;*/
+    width: 40%;
+    height: 90%;
+}
+
+img:hover{
+    border-radius: 1px 1px;
+    width: 80%;
+    cursor:pointer;
+}

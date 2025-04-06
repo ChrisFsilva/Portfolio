@@ -1,0 +1,45 @@
+
+h1{
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-container{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.profile-photo img{
+    border-radius: 500px 500px;
+}
+
+.profile-text{
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #007BFF;
+}
