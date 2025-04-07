@@ -1,45 +1,30 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #111;
-    color: #fff;
-    text-align: center;
-  }
+.firtsquad{
   
-  .galeria {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-  
-  .galeria img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: 3px solid transparent;
-    cursor: pointer;
-    transition: transform 0.3s, border 0.3s;
-    border-radius: 10px;
-  }
-  
-  .galeria img:hover {
-    transform: scale(1.05);
-    border-color: #00ffff;
-  }
-  
-  .galeria img.selecionado {
-    border-color: #ff6600;
-    transform: scale(1.1);
-  }
-  
-  .descricao {
-    font-size: 1.2rem;
-    background-color: #222;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
+}
+.segundsquad{
+  background-color: rgb(133, 133, 133);
+  color: white;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 600px;
+  margin-left: 30%;
+  border-radius: 30%;
+}
+
+.segundsquad img {
+  width: 60%;
+  border-radius: 30%;
+}
+.thirdsquad{
+  background-color: rgb(79, 80, 80);;
+  margin-top: 10px;
+  width: 70%;
+  border-radius: 30%;
+  border-style: dashed;
+  border-color: black;
+}
+
+.thirdsquad p{
+  background-color: aqua;
+}
