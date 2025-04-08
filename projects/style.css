@@ -1,30 +1,68 @@
 .firtsquad{
-  
+  display: flex;
+  width: 95%;
+  overflow:scroll;
+
 }
-.segundsquad{
+.secundsquad{
   background-color: rgb(133, 133, 133);
+  box-shadow: rgba(0, 0, 0, 0.699) 20px 10px 30px 2px;
+  border-radius: 0px 0px 20px 0px;
+  border-top:dashed;
+  border-color: rgba(216, 216, 216, 0.274);
   color: white;
-  align-items: center;
-  text-align: center;
-  width: 50%;
-  height: 600px;
-  margin-left: 30%;
-  border-radius: 30%;
+  width: 400px;
+  height: 500px;
+  margin: 30px;
 }
 
-.segundsquad img {
-  width: 60%;
-  border-radius: 30%;
-}
 .thirdsquad{
-  background-color: rgb(79, 80, 80);;
-  margin-top: 10px;
-  width: 70%;
-  border-radius: 30%;
-  border-style: dashed;
-  border-color: black;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 400px;
+}
+
+.secundsquad img{
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;      /* Centraliza horizontalmente */
+  justify-content: center;  /* Centraliza verticalmente (opcional) */
+  border-color: aqua;
 }
 
 .thirdsquad p{
-  background-color: aqua;
+  text-align: right;
+  background: linear-gradient(to bottom, #1a1a1a, rgba(216, 216, 216, 0.274));
+  width: 99.5%;
+}
+
+.thirdsquad h1{
+  text-align: center;
+  align-items: center;
+}
+
+.thirdsquad h3{
+  
+}
+
+::-webkit-scrollbar {
+  width: 0px;             /* Largura da barra vertical */
+  height: 20px;             /* Altura da barra horizontal (em elementos horizontais) */
+  background-color: #888;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;     /* Fundo da barra de rolagem */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #888;  /* Cor da barra de rolagem */
+  border-radius: 10px;     /* Arredondamento */
+  border: 2px solid #f1f1f1; /* Borda interna para dar destaque */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
