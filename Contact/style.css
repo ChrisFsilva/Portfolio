@@ -1,0 +1,17 @@
+.content{
+  background-color: #d3d3d3;
+  border-style: outset;
+  border-radius: 10px 10px 0px 0px;
+  border-width: 5px;
+  text-align: center;
+}
+.squad{
+  display:flex;
+  border-style: dashed;
+  width: 50%;
+  height: 100px;
+  padding-top: 10px;
+}
+.info{
+  display:flex;
+}
