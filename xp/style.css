@@ -1,43 +1,60 @@
-.firstsquad{
+.firtsquad {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;          /* Permite quebrar linha */
+    justify-content: center;  /* Centraliza os blocos na tela */
+    gap: 20px;                /* Espaçamento entre os blocos */
+    padding: 20px;            /* Espaçamento interno opcional */
 }
 
-.thirdsquad{
-    margin-top: 10px;
-    border-style: double;
+.thirdsquad {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-}
+    flex: 1 1 45%;
+    flex-direction: column;   /* Organiza conteúdo em coluna */
+    align-items: center;      /* Centraliza horizontalmente o conteúdo */
+    justify-content: center;  /* Centraliza verticalmente o conteúdo */
 
-.thirdsquad-text{
+    border-radius: 150px;
     border-style: double;
-    width: 70%;
-    padding-left: 10px;
+    width: 45%;               /* Ocupa quase metade da linha */
+    min-width: 400px;         /* Evita blocos muito pequenos */
+
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    min-height: 350px;
+    max-height: 450px;
 }
 
-.thirdsquad-img{
-    border-style: double;
-    width: 30%;
-    align-content: center;
+.thirdsquad-on {
+    padding-top: 5%;
+    display: block;
 }
 
-.thirdsquad-img img{
-    width: 100%;
+.thirdsquad-on img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;           /* 🔹 Centraliza a imagem dentro da div */
 }
 
-h1{
+.thirdsquad:hover .thirdsquad-on {
+    display: none;
+}
+
+.thirdsquad-off {
+    display: none;
+    text-align: left;
+    font-size: 90%;
+    overflow-wrap: break-word;
+}
+
+.thirdsquad:hover .thirdsquad-off {
+    display: block;
+}
+
+.thirdsquad h1 {
     text-align: center;
 }
 
-p{
-    text-align: right;
-    font-size: 15px;
-    padding-right: 15px;
-}
-
-h3{
-    font-size: 18px;
+.thirdsquad img {
+    max-width: 50%;
 }
